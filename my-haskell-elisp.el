@@ -3,3 +3,7 @@
   (interactive)
   (re-search-forward "^-- >>> ")
   (dante-eval-block))
+
+;; Provide ourselves:
+(provide 'my-haskell-elisp)
+;;; my-haskell-elisp.el ends here
